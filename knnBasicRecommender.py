@@ -9,7 +9,7 @@ dataset = 'ml-100k'
 data = Dataset.load_builtin(dataset)
 
 # Set KFold validation and ensure random state remains consistent between all models
-kf = KFold(n_splits=3, random_state = 0)
+kf = KFold(n_splits=10, random_state = 0)
 
 # Use RMS error and mean abs error as metrics
 out = cross_validate(KNNBasic(), data, ['rmse', 'mae'], kf)
