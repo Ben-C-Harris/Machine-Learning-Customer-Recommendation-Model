@@ -6,8 +6,8 @@ Currently developing some new recommender models and creating a GUI to test thei
 Uploaded is an early stage basic KNN model applied to the well known movielens-100k dataset.
 
     KNN Basic Recommender Model has achieved:
-                        RMSE: 0.990
-                        MAE : 0.782
+        RMSE: 0.990
+        MAE : 0.782
 
 Current work is looking into other higher performing models in Surprise (https://github.com/NicolasHug/Surprise/tree/f98907f84251e88f96669eb29284bd7976a8eecc) while also looking into LightFM (https://github.com/lyst/lightfm).
 
